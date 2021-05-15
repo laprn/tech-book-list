@@ -1,15 +1,20 @@
 import requests
 
-BASEURL = 'https://iss.ndl.go.jp/api/opensearch'
-_from = '2021-04'
-_until = '2021-05'
-query = {'ndc': '007', 'mediatype': '1', 'from': _from, 'until': _until}
+def main(query):
+    r_rss = requests.get(BASEURL, params=query)
+    q_json = {'rss_url': r_rss.url}
+    r_json = requests.get(JSONURL, params=q_json).json()
+    result = []
+    for i in range(len(r_json['items'])):
+        result.append(r_json['items'][i]['title'])
+    print(result)
+    return result
 
-r = requests.get(BASEURL, params=query)
 
-url = 'https://api.rss2json.com/v1/api.json'
-print(r.url)
-
-param2 = {'rss_url': r.url}
-r2 = requests.get(url, params=param2)
-print(r2.url)
+if __name__ == '__main__':
+    BASEURL = 'https://iss.ndl.go.jp/api/opensearch'
+    JSONURL = 'https://api.rss2json.com/v1/api.json'
+    _from = '2021-04'
+    _until = '2021-05'
+    query = {'ndc': '007', 'mediatype': '1', 'from': _from, 'until': _until}
+    main(query)
