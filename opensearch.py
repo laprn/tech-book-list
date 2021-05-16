@@ -1,6 +1,9 @@
 import requests
 from bs4 import BeautifulSoup as bs
 import pprint
+import json
+
+from requests.api import put
 
 def main(query):
     r_rss = requests.get(BASEURL, params=query)
@@ -22,6 +25,10 @@ def main(query):
             'img': _img
         }
     pprint.pprint(put_in_data)
+    with open('./json/2021/d0405.json', 'w') as f:
+        json.dump(put_in_data, f, indent=4)
+    result = requests.put('https://technical-book-list-default-rtdb.firebaseio.com/', json=put_in_data)
+    print(result)
     return put_in_data
 
 def searchIsbn(link):

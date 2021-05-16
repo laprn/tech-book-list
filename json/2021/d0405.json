@@ -1,0 +1,62 @@
+{
+    "0": {
+        "title": "IT\u3068\u6570\u5b66 : \u6a5f\u68b0\u5b66\u7fd2\u306e\u57fa\u790e\u77e5\u8b58\u3092\u30c8\u30ec\u30fc\u30cb\u30f3\u30b0",
+        "link": "https://iss.ndl.go.jp/books/R100000001-I105076184-00",
+        "isbn": "9784297120665",
+        "img": ""
+    },
+    "1": {
+        "title": "1\u9031\u9593\u3067CCNA\u306e\u57fa\u790e\u304c\u5b66\u3079\u308b\u672c",
+        "link": "https://iss.ndl.go.jp/books/R100000001-I105044018-00",
+        "isbn": "9784295010739",
+        "img": "http://books.google.com/books/content?id=6RsoEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "2": {
+        "title": "\u30a4\u30f3\u30bf\u30d5\u30a7\u30fc\u30b9\u30c7\u30b6\u30a4\u30f3\u306e\u5fc3\u7406\u5b66",
+        "link": "https://iss.ndl.go.jp/books/R100000001-I105044017-00",
+        "isbn": "9784873119458",
+        "img": "http://books.google.com/books/content?id=xxNkzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "3": {
+        "title": "\u57fa\u790e\u304b\u3089\u5b66\u3076\u7d44\u8fbc\u307fRust",
+        "link": "https://iss.ndl.go.jp/books/R100000001-I105066108-00",
+        "isbn": "9784863543379",
+        "img": "http://books.google.com/books/content?id=R8xmzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "4": {
+        "title": "Q&amp;A AI\u306e\u6cd5\u52d9\u3068\u502b\u7406",
+        "link": "https://iss.ndl.go.jp/books/R100000001-I105075525-00",
+        "isbn": "9784502377310",
+        "img": "http://books.google.com/books/content?id=JDRozgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "5": {
+        "title": "\u6df1\u5c64\u5b66\u7fd2\u306e\u539f\u7406\u306b\u8feb\u308b : \u6570\u5b66\u306e\u6311\u6226",
+        "link": "https://iss.ndl.go.jp/books/R100000001-I105062308-00",
+        "isbn": "9784000297035",
+        "img": "http://books.google.com/books/content?id=xNFqzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "6": {
+        "title": "\u6df1\u5c64\u5f37\u5316\u5b66\u7fd2\u5165\u9580",
+        "link": "https://iss.ndl.go.jp/books/R100000001-I105043991-00",
+        "isbn": "9784320124721",
+        "img": "http://books.google.com/books/content?id=dB5kzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "7": {
+        "title": "\u60c5\u5831\u5316\u30fb\u96fb\u52d5\u5316\u30fb\u77e5\u80fd\u5316\u306e\u30ea\u30b9\u30af\u30de\u30cd\u30b8\u30e1\u30f3\u30c8 : \u300c\u4e2d\u592e\u7d71\u5236\u300d\u5bfe\u300c\u81ea\u5f8b\u5206\u6563\u300d",
+        "link": "https://iss.ndl.go.jp/books/R100000001-I105033952-00",
+        "isbn": "9784344933552",
+        "img": "http://books.google.com/books/content?id=twxnzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "8": {
+        "title": "CentOS 8\u5b9f\u8df5\u30ac\u30a4\u30c9",
+        "link": "https://iss.ndl.go.jp/books/R100000001-I105076201-00",
+        "isbn": "9784295011293",
+        "img": "http://books.google.com/books/content?id=PdIoEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "9": {
+        "title": "\u305d\u308d\u305d\u308d\u5e38\u8b58?\u30de\u30f3\u30ac\u3067\u308f\u304b\u308b\u300cLinux\u30b3\u30de\u30f3\u30c9\u300d",
+        "link": "https://iss.ndl.go.jp/books/R100000001-I105066107-00",
+        "isbn": "9784863543461",
+        "img": "http://books.google.com/books/content?id=_JRmzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    }
+}
